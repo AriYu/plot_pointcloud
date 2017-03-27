@@ -1,6 +1,7 @@
 % binaryだとなぜか読みこむ度に配列の番号が変わるので注意
 clear
-data1 = readPcd('/home/yuta/Documents/ROS/forest_ws/src/forest_robot_project/fr01_ndt_mapping/result20160720063829.pcd');
+%data1 = readPcd('/home/yuta/Documents/ROS/forest_ws/src/forest_robot_project/fr01_ndt_mapping/result20160720063829.pcd');
+data1 = readPcd('/home/yuta/Documents/source-codes/my_cloud_tools/clouds/lum/slamed/second/201611292350/merged20161130012835.pcd');
 data2 = readPcd('/home/yuta/Documents/ROS/forest_ws/src/forest_robot_project/fr01_ndt_mapping/result20160701021711.pcd');
 %data = readPcd('/home/yuta/Documents/ROS/forest_ws/src/forest_robot_project/fr01_ndt_mapping/resized20160720063829.pcd')
 f1 = figure(1);
